@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.14)  20 AUG 2015 15:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.14)  20 AUG 2015 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,7 +652,7 @@ Missing character: There is no ¦ in font cmr10!
 Here is how much of TeX's memory you used:
  2800 strings out of 495028
  37766 string characters out of 6181497
- 238308 words of memory out of 5000000
+ 237264 words of memory out of 5000000
  5672 multiletter control sequences out of 15000+600000
  13104 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -669,7 +669,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti10.pfb>
-Output written on songbook.pdf (117 pages, 362025 bytes).
+Output written on songbook.pdf (117 pages, 360592 bytes).
 PDF statistics:
  430 PDF objects out of 1000 (max. 8388607)
  296 compressed objects within 3 object streams
