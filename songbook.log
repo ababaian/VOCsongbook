@@ -1,0 +1,675 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.14)  20 AUG 2015 17:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**songbook.tex
+(./songbook.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./songs.sty
+Package: songs 2013/07/10 v2.17 Songs package
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count87
+)
+\SB@dimen=\dimen103
+\SB@dimenii=\dimen104
+\SB@dimeniii=\dimen105
+\SB@dimeniv=\dimen106
+\SB@box=\box26
+\SB@boxii=\box27
+\SB@boxiii=\box28
+\SB@toks=\toks14
+\SB@cnt=\count88
+\SB@cntii=\count89
+\SB@skip=\skip43
+\SB@envbox=\box29
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\c@songnum=\count90
+\c@versenum=\count91
+\versesep=\skip44
+\afterpreludeskip=\skip45
+\beforepostludeskip=\skip46
+\baselineadj=\skip47
+\idxheadwidth=\skip48
+\songnumwidth=\skip49
+\versenumwidth=\skip50
+\cbarwidth=\skip51
+\sbarheight=\skip52
+\vvpenalty=\count92
+\ccpenalty=\count93
+\vcpenalty=\count94
+\cvpenalty=\count95
+\brkpenalty=\count96
+\spenalty=\count97
+\minfrets=\count98
+\SB@colwidth=\dimen107
+\SB@songbox=\box30
+\SB@numcols=\count99
+\SB@colnum=\count100
+\SB@colbox=\box31
+\SB@pgbox=\box32
+\SB@mrkbox=\box33
+\SB@groupcnt=\count101
+\SB@titlelist=\toks16
+\SB@titletail=\toks17
+\SB@parindent=\dimen108
+\SB@chorusbox=\box34
+\SB@cmarkclass=\marks1
+\SB@nocmarkclass=\marks2
+\SB@grouplvl=\count102
+\SB@transposefactor=\count103
+\SB@lyric=\toks18
+\SB@numhyps=\count104
+\SB@lyricnohyp=\toks19
+\SB@lyricbox=\box35
+\SB@chordbox=\box36
+\SB@cr@=\toks20
+\SB@ctail=\toks21
+\SB@fretwidth=\skip53
+\SB@tabindent=\dimen109
+\c@SB@songsnum=\count105
+\SB@songwrites=\box37
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3681.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3681.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3681.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3681.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count106
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen110
+\Gm@wd@mp=\dimen111
+\Gm@odd@mp=\dimen112
+\Gm@even@mp=\dimen113
+\Gm@layoutwidth=\dimen114
+\Gm@layoutheight=\dimen115
+\Gm@layouthoffset=\dimen116
+\Gm@layoutvoffset=\dimen117
+\Gm@dimlist=\toks22
+)
+\SB@out=\write3
+\openout3 = `songbook.sxc'.
+
+
+(./songbook.aux)
+\openout1 = `songbook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen118
+\scratchbox=\box38
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen119
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks24
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=556.47656pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./1234.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+) (./99_red_balloons.tex [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./aint_no_sunshine.tex [
+2]) (./all_my_loving.tex [3])
+(./always_look_on_the_bright_side_of_life.tex
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+ [4]) (./american_pie.tex [5]
+[6] [7]) (./american_woman.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [8]) (./auld_lang_syne.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [9])
+(./barrets_privateers.tex [10]) (./because_I_got_high.tex [11] [12])
+(./blister_in_the_sun.tex) (./blowing_in_the_wind.tex [13])
+(./bohemian_rhapsody.tex [14]) (./book_of_love.tex [15]) (./boxer.tex [16])
+(./sporto.tex [17]) (./breakfast_at_tiffanys.tex) (./brown_eyed_girl.tex
+[18]) (./build_me_up_buttercup.tex [19]) (./california_dreaming.tex [20])
+(./okanagan_dreaming.tex [21]) (./californication.tex [22])
+(./cant_help_falling_in_love.tex) (./cats_in_the_cradle.tex [23])
+(./cecilia.tex [24]) (./champagne_supernova.tex [25]) (./champs_elysees.tex
+Missing character: There is no √ in font cmr10!
+Missing character: There is no † in font cmr10!
+
+[26]) (./creep.tex
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no Ö in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no Ö in font cmr10!
+ [27]) (./dirty_old_town.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [28]) (./dirty_paws.tex [29])
+(./dont_look_back_in_anger.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [30]) (./dont_speak.tex [31])
+(./dont_stop_believing.tex [32]) (./down_on_the_corner.tex [33])
+(./drunken_sailor.tex [34]) (./drunken_climber.tex [35])
+(./dust_in_the_wind.tex [36]) (./el_condor_paso.tex) (./far_far_away.tex
+[37]) (./fast_car.tex [38] [39]) (./fat_bottomed_girls.tex [40])
+(./father_and_son.tex [41]) (./hallelujah.tex [42])
+(./have_you_seen_the_rain.tex [43]) (./heart_of_gold.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [44]) (./help.tex
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+
+[45]) (./here_comes_the_sun.tex
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+ [46]) (./hey_jude.tex [47])
+(./hey_soul_sister.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [48]) (./hey_ya.tex
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+ [49] [50]) (./high_world.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+[51]) (./home_for_a_rest.tex [52]) (./hotel_california.tex [53] [54])
+(./house_of_the_rising_sun.tex) (./I_am_a_rock.tex [55])
+(./I_can_see_clearly_now.tex [56]) (./if_I_had_a_million_dollars.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [57])
+(./if_you_could_read_my_mind.tex [58]) (./imagine.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+ [59]) (./im_gonna_be.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+
+[60]) (./island_in_the_sun.tex [61]) (./is_this_love.tex [62])
+(./i_will_follow_you_into_the_dark.tex [63])
+(./i_would_do_anything_for_love.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+ [64] [65]) (./killing_me_softly.tex
+[66]) (./king_of_the_road.tex [67]) (./kiss_me.tex)
+(./knocking_on_heavens_door.tex [68]) (./kung_fu_fighting.tex)
+(./last_saskatchewan_pirate.tex [69] [70]) (./leaving_on_a_jet_plane.tex
+[71]) (./lemon_tree.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+ [72]) (./let_it_be.tex [73])
+(./the_lion_sleeps_tonight.tex [74]) (./living_on_a_prayer.tex [75])
+(./london_calling.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [76]) (./lucy_in_the_sky_with_diamonds.tex [77])
+(./lumberjack_song.tex [78]) (./me_and_bobby_mcgee.tex [79])
+(./mrs_robinson.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [80]) (./mr_tambourine_man.tex [81]) (./my_girl.tex
+[82]) (./northwest_passage.tex
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [83]) (./no_woman_no_cry.tex [84])
+(./obladi_oblada.tex [85] [86]) (./piano_man.tex [87]) (./pretty_woman.tex
+[88]) (./proud_mary.tex [89]) (./puff_the_magic_dragon.tex [90])
+(./rasputin.tex [91]) (./riptide.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [92]) (./somewhere_over_the_rainbow.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmbx5!
+Missing character: There is no Ä in font cmbx5!
+Missing character: There is no ô in font cmbx5!
+
+[93]) (./sound_of_silence.tex [94]) (./space_oddity.tex [95])
+(./stand_by_me.tex [96]) (./summer_of_69.tex [97]) (./summertime.tex [98])
+(./sweet_home_alabama.tex [99]) (./take_me_home_country_roads.tex
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [100])
+(./tears_in_heaven.tex [101]) (./total_eclipse_of_the_heart.tex [102] [103])
+(./twist_and_shout.tex) (./under_the_bridge.tex [104] [105])
+(./viva_la_vida.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+ [106]) (./wagon_wheel.tex [107]) (./wait.tex [108])
+(./well_meet_again.tex
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+ [109]) (./where_have_all_the_flowers_gone.tex [110])
+(./whiskey_in_the_jar.tex [111] [112]) (./wild_world.tex)
+(./wish_you_were_here.tex [113]) (./wonderwall.tex [114])
+(./yellow_submarine.tex [115]) (./yesterday.tex [116]) (./zombie.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+ [117])
+[118]
+\openout3 = `idxfile.sxd'.
+
+ (./songbook.sxc) (./songbook.aux) ) 
+Here is how much of TeX's memory you used:
+ 2800 strings out of 495028
+ 37766 string characters out of 6181497
+ 224626 words of memory out of 5000000
+ 5672 multiletter control sequences out of 15000+600000
+ 13104 words of font info for 44 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 31i,9n,31p,261b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on songbook.pdf (118 pages, 365588 bytes).
+PDF statistics:
+ 433 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
