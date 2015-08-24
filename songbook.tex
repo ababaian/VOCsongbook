@@ -11,6 +11,9 @@
 %Remove that vertical bar next to the chorus
 \setlength{\cbarwidth}{0pt}
 
+% Modify how the chorus environment works
+\let\oldendchorus\endchorus
+\renewcommand{\endchorus}{\textnote{End of Chorus}\oldendchorus}
 %\noversenumbers
 %bugfix: songlink command caused errors for compiling
 \renewcommand{\songlink}[2]{#2}
