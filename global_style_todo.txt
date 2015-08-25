@@ -1,0 +1,7 @@
+- smaller margins
+- wider columns
+- generally try less white space w/i and b/w songs
+- avoid awkward layouting / wrapping
+- larger artist font size
+- spoofs arranged after originals
+- change size to half a letter, adjust other dimensions
