@@ -8,6 +8,13 @@
 
 \versesep=1pt plus 2pt minus 2pt
 
+% This changes how the title is printed
+\renewcommand{\makeprelude}{%
+    \resettitles
+    {\Large\bfseries\thesongnum\ - \songtitle}\par
+    {\songauthors}}
+
+% This is how chord symbols are printed: Small font, bold-face
 \renewcommand{\printchord}[1]{\small\rmfamily\bf#1}
 
 %Make it so the word "Chorus:" is printed before each Chorus
