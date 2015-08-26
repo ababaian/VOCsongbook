@@ -1,23 +1,52 @@
-\documentclass{article}
+\documentclass[twoside]{article}
 \usepackage[chorded]{songs}
 \usepackage{setspace}
-\usepackage[hmargin=2cm]{geometry}
+
+% Geometry package controls paper size, margins
+\usepackage[paperwidth=5.5in, paperheight=8.5in,%
+            margin=1cm, footskip=.5cm]{geometry}
+
 \versesep=1pt plus 2pt minus 2pt
 
+% This changes how the title is printed
+\renewcommand{\makeprelude}{%
+    \resettitles
+    {\Large\bfseries\thesongnum\ - \songtitle}\par
+    {\songauthors}}
+
+% This is how chord symbols are printed: Small font, bold-face
 \renewcommand{\printchord}[1]{\small\rmfamily\bf#1}
 
 %Make it so the word "Chorus:" is printed before each Chorus
 \renewcommand{\everychorus}{\textnote{Chorus:}}
 %Remove that vertical bar next to the chorus
-\setlength{\cbarwidth}{0pt}
+%\setlength{\cbarwidth}{0pt}
+
+% Modify how the chorus environment works
+%\let\oldendchorus\endchorus
+%\renewcommand{\endchorus}{\textnote{End Chorus}\oldendchorus}
 
 %\noversenumbers
+
 %bugfix: songlink command caused errors for compiling
 \renewcommand{\songlink}[2]{#2}
 \newindex{titleidx}{idxfile}
 \begin{document}
+\title{VOC Songbook - Placeholder Titlepage}
+\maketitle
+\newpage
+This page is opposite the title and should be empty
+\newpage
+Blablabla this is the foreword
+\newpage
+Probably one more empty page. This is important because we have a 
+two-page layout and thus want to see whether a song that stretches over 
+two pages requires flipping or not. 
 %\showindex[1]{Index of Song Titles}{titleidx}
-\songcolumns{2}
+
+%Use *one* column per page in half-letter paper format
+\songcolumns{1}
+
 \begin{songs}{titleidx}
 \input{1234.tex}
 \input{99_red_balloons.tex}
