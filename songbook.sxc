@@ -302,7 +302,11 @@
 \SB@iwrite {titleidx}{Take me home country roads}
 \SB@iwrite {titleidx}{101}
 \SB@iwrite {titleidx}{song1-101.1}
+<<<<<<< HEAD
+\SB@iwrite {titleidx}{Tiny Dancer}
+=======
 \SB@iwrite {titleidx}{Tears in heaven}
+>>>>>>> 33c20e00005d76a59eb7ebe69c06a248d844dc94
 \SB@iwrite {titleidx}{102}
 \SB@iwrite {titleidx}{song1-102.1}
 \SB@iwrite {titleidx}{Total eclipse of the heart}
