@@ -1,7 +1,7 @@
 \documentclass[twoside]{article}
 \usepackage[chorded]{songs}
 \usepackage{setspace}
-
+\pagenumbering{arabic}
 % Geometry package controls paper size, margins
 \usepackage[paperwidth=5.5in, paperheight=8.5in,%
             margin=1cm, footskip=.5cm]{geometry}
@@ -33,7 +33,10 @@
 \newindex{titleidx}{idxfile}
 \begin{document}
 \title{VOC Songbook - Placeholder Titlepage}
+\begin{titlepage}
 \maketitle
+\thispagestyle{empty}
+\end{titlepage}
 \newpage
 This page is opposite the title and should be empty
 \newpage
@@ -184,7 +187,6 @@ two pages requires flipping or not.
 \input{yesterday.tex}
 \input{yesterday_spoof.tex}
 \input{zombie.tex}
-
+\input{chordpage.tex}
 \end{songs}
-This page will have a bunch of chord fingerings
 \end{document}
