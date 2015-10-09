@@ -1,5 +1,6 @@
-\documentclass[twoside]{article}
-\usepackage[chorded]{songs}
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage[chorded,nopdfindex]{songs}
 \usepackage{setspace}
 \pagenumbering{arabic}
 % Geometry package controls paper size, margins
@@ -8,6 +9,7 @@
 
 \versesep=1pt plus 2pt minus 2pt
 
+\songpos{3}
 % This changes how the title is printed
 \setlength{\sbarheight}{0pt}
 \renewcommand{\makeprelude}{%
@@ -30,8 +32,14 @@
 %\noversenumbers
 
 %bugfix: songlink command caused errors for compiling
+\renewcommand{\songtarget}[2]{}
 \renewcommand{\songlink}[2]{#2}
 \newindex{titleidx}{idxfile}
+\newindex{emptyidx}{emptyfile}
+
+%\vvpenalty=500
+%\vcpenalty=0
+%\vcpenalty=0
 \begin{document}
 \title{VOC Songbook - Placeholder Titlepage}
 \begin{titlepage}
@@ -49,7 +57,10 @@ Blablabla this is the foreword
 %Use *one* column per page in half-letter paper format
 \songcolumns{1}
 
+\showindex{List of Songs}{titleidx}
+
 \begin{songs}{titleidx}
+\indexsongsas{titleidx}{\thepage}
 \input{1234.tex}
 \input{99_red_balloons.tex}
 \input{aint_no_sunshine.tex}
@@ -74,7 +85,7 @@ Blablabla this is the foreword
 \input{california_dreaming_spoof.tex}
 
 \input{cant_help_falling_in_love.tex}
-\input{cats_in_the_cradle.tex}e
+\input{cats_in_the_cradle.tex}
 \input{cecilia.tex}
 \input{champagne_supernova.tex}
 \input{champs_elysees.tex}
@@ -186,6 +197,8 @@ Blablabla this is the foreword
 \input{yesterday.tex}
 \input{yesterday_spoof.tex}
 \input{zombie.tex}
+\end{songs}
+\begin{songs}{emptyidx}
 \input{chordpage.tex}
 \end{songs}
 \end{document}
