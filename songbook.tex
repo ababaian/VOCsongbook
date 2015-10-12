@@ -34,8 +34,16 @@
 %bugfix: songlink command caused errors for compiling
 \renewcommand{\songtarget}[2]{}
 \renewcommand{\songlink}[2]{#2}
+
+% Declare which words to ignore when making the index
+% Declare index files
 \newindex{titleidx}{idxfile}
+% Empty index for special pages such as the chord page
 \newindex{emptyidx}{emptyfile}
+
+\titleprefixword{A}
+\titleprefixword{The}
+\titleprefixword{Les}
 
 %\vvpenalty=500
 %\vcpenalty=0
@@ -57,6 +65,7 @@ Blablabla this is the foreword
 %Use *one* column per page in half-letter paper format
 \songcolumns{1}
 
+\pagebreak
 \showindex{List of Songs}{titleidx}
 
 \begin{songs}{titleidx}

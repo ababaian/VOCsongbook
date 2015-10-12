@@ -1,5 +1,11 @@
 \SB@iwrite {titleidx}{TITLE INDEX DATA FILE}
 \SB@iwrite {emptyidx}{TITLE INDEX DATA FILE}
+\SB@iwrite {titleidx}{%prefix A}
+\SB@iwrite {emptyidx}{%prefix A}
+\SB@iwrite {titleidx}{%prefix The}
+\SB@iwrite {emptyidx}{%prefix The}
+\SB@iwrite {titleidx}{%prefix Les}
+\SB@iwrite {emptyidx}{%prefix Les}
 \SB@iwrite {titleidx}{Ain't no sunshine}
 \SB@iwrite {titleidx}{6}
 \SB@iwrite {titleidx}{song1-1.2}
