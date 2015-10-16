@@ -9,7 +9,7 @@
 
 \versesep=1pt plus 2pt minus 2pt
 
-\songpos{3}
+\songpos{0}
 % This changes how the title is printed
 \setlength{\sbarheight}{0pt}
 \renewcommand{\makeprelude}{%
@@ -17,6 +17,8 @@
     {\Large\bfseries\thesongnum\ - \songtitle}\par
     {\songauthors}}
 
+\renewcommand{\makepostlude}{%
+    \extendpostlude\vspace{24pt plus 12mm minus 8mm}}
 % This is how chord symbols are printed: Small font, bold-face
 \renewcommand{\printchord}[1]{\small\rmfamily\bf#1}
 
@@ -45,9 +47,11 @@
 \titleprefixword{The}
 \titleprefixword{Les}
 
-%\vvpenalty=500
-%\vcpenalty=0
-%\vcpenalty=0
+\spenalty=200 %default 100
+\vvpenalty=200
+\vcpenalty=200
+\vcpenalty=200
+\interlinepenalty=2000
 \begin{document}
 \title{VOC Songbook - Placeholder Titlepage}
 \begin{titlepage}
@@ -63,7 +67,8 @@ Blablabla this is the foreword
 %\showindex[1]{Index of Song Titles}{titleidx}
 
 %Use *one* column per page in half-letter paper format
-\songcolumns{1}
+\songcolumns{0}
+\flushbottom
 
 \pagebreak
 \showindex{List of Songs}{titleidx}
