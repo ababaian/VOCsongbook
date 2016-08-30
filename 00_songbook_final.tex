@@ -1,0 +1,241 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage[chorded,nopdfindex]{songs}
+\usepackage{setspace}
+\pagenumbering{arabic}
+% Geometry package controls paper size, margins
+\usepackage[paperwidth=5.5in, paperheight=8.5in,%
+            margin=1cm, footskip=.5cm]{geometry}
+
+\versesep=1pt plus 2pt minus 2pt
+
+\songpos{0}
+% This changes how the title is printed
+\setlength{\sbarheight}{0pt}
+\renewcommand{\makeprelude}{%
+    \resettitles
+    {\Large\bfseries\thesongnum\ - \songtitle}\par
+    {\songauthors}}
+
+\renewcommand{\makepostlude}{%
+    \extendpostlude\vspace{24pt plus 12mm minus 8mm}}
+% This is how chord symbols are printed: Small font, bold-face
+\renewcommand{\printchord}[1]{\small\rmfamily\bf#1}
+
+%Make it so the word "Chorus:" is printed before each Chorus
+\renewcommand{\everychorus}{\textnote{Chorus:}}
+%Remove that vertical bar next to the chorus
+%\setlength{\cbarwidth}{0pt}
+
+% Modify how the chorus environment works
+%\let\oldendchorus\endchorus
+%\renewcommand{\endchorus}{\textnote{End Chorus}\oldendchorus}
+
+%\noversenumbers
+
+%bugfix: songlink command caused errors for compiling
+\renewcommand{\songtarget}[2]{}
+\renewcommand{\songlink}[2]{#2}
+
+% Declare which words to ignore when making the index
+% Declare index files
+\newindex{titleidx}{idxfile}
+% Empty index for special pages such as the chord page
+\newindex{emptyidx}{emptyfile}
+
+\titleprefixword{A}
+\titleprefixword{The}
+\titleprefixword{Les}
+
+\spenalty=200 %default 100
+\vvpenalty=200
+\vcpenalty=200
+\vcpenalty=200
+\interlinepenalty=2000
+\begin{document}
+\title{VOC Songbook - Placeholder Titlepage}
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\end{titlepage}
+
+\newpage
+
+\textbf{Foreword}
+
+\vspace{4mm}
+
+Music can speak for us and express a moment in a way that words oftenfall short. Our songbook is a collection of music, chosen such that you andyour co-adventurers can sing, strum and head-bang outdoors to capture thosespecial moments. Whether it’s an acappella 'Hallelujah' in a white-out BrewHut, the full blast of 'Bohemian Rhapsody' after seven hours on the road toSmith Rocks, or a friendly reminder to 'Always look on the bright side of life'in your shiver-bivvy, the songs are here. I hope carrying this book remindsyou to enjoy these moments and harmonize in nature with old friends andnew.
+
+\vspace{4mm}
+\textit{Artem Babaian, VOC President (2015 - 16)}
+
+\vspace{10mm}
+
+\textbf{Acknowledgements}
+
+\vspace{4mm}
+
+This songbook exists thanks to its champion, Nicole Ong. It has been herunrelenting enthusiasm and, 'Get it done!' leadership which rallied the rest ofus into action. Next time you see her buy her a beer and tell her how muchyou enjoy the songbook because she deserves every thanks for keeping thesongbook from falling into unfinished VOC projects purgatory.
+\vspace{4mm}
+
+Special thanks goes to; Clemens Adolphs for his committment to everyaspect of this book and the parodies of his invention; Birgit Rogalla andMurray Down for our beautiful cover designs; the rest of our dedicated team:Artem Babaian, Caroline Jung, Christian Veenstra, Corey Kelly, DanikaWheeler, Elliott Skierszkan, Isabel Verse, Jack Montpellier, Jeff Taylor,Magda Price, Martin Matej, Murray Down, Niusha Mahmoodi, RossCampbell and Sam Viavant.
+
+\newpage
+%\showindex[1]{Index of Song Titles}{titleidx}
+\input{instructions.tex}
+%Use *one* column per page in half-letter paper format
+\songcolumns{0}
+\flushbottom
+
+\pagebreak
+\showindex{List of Songs}{titleidx}
+
+\begin{songs}{titleidx}
+\indexsongsas{titleidx}{\thepage}
+\input{aint_no_sunshine.tex}
+\input{all_my_loving.tex}
+
+\input{always_look_on_the_bright_side_of_life.tex}
+\input{american_pie.tex}
+\input{american_woman.tex}
+\input{auld_lang_syne.tex}
+\input{barrets_privateers.tex}
+
+\input{blister_in_the_sun.tex}
+\input{blowing_in_the_wind.tex}
+\input{bohemian_rhapsody.tex}
+
+\input{boxer.tex}
+\input{boxer_spoof.tex}
+\input{breakfast_at_tiffanys.tex}
+\input{brown_eyed_girl.tex}
+\input{build_me_up_buttercup.tex}
+\input{california_dreaming.tex}
+\input{california_dreaming_spoof.tex}
+
+\input{cant_help_falling_in_love.tex}
+\input{cats_in_the_cradle.tex}
+\input{cecilia.tex}
+\input{champagne_supernova.tex}
+\input{champs_elysees.tex}
+\input{creep.tex}
+
+\input{dirty_paws.tex}
+\input{dont_look_back_in_anger.tex}
+\input{dont_speak.tex}
+\input{dont_stop_believing.tex}
+\input{down_on_the_corner.tex}
+\input{drunken_sailor.tex}
+\input{drunken_sailor_spoof.tex}
+\input{dust_in_the_wind.tex}
+\input{el_condor_pasa.tex}
+\input{far_far_away.tex}
+
+\input{fat_bottomed_girls.tex}
+\input{father_and_son.tex}
+
+\input{free_fallin.tex}
+
+\input{hallelujah.tex}
+\input{have_you_seen_the_rain.tex}
+\input{heart_of_gold.tex}
+\input{help.tex}
+\input{here_comes_the_sun.tex}
+\input{hey_jude.tex}
+\input{hey_soul_sister.tex}
+\input{hey_ya.tex}
+\input{home.tex}
+\input{home_for_a_rest.tex}
+\input{hotel_california.tex}
+\input{house_of_the_rising_sun.tex}
+\input{I_am_a_rock.tex}
+\input{I_can_see_clearly_now.tex}
+\input{i_will_follow_you_into_the_dark.tex}
+\input{I_will_survive.tex}
+\input{I_will_survive_spoof.tex}
+\input{i_will_wait.tex}
+
+\input{i_would_do_anything_for_love_spoof.tex}
+\input{im_gonna_be.tex}
+\input{if_I_had_a_million_dollars.tex}
+\input{if_you_could_read_my_mind.tex}
+\input{imagine.tex}
+\input{is_this_love.tex}
+\input{island_in_the_sun.tex}
+\input{killing_me_softly.tex}
+\input{king_of_the_bongo.tex}
+
+\input{kiss_me.tex}
+\input{knocking_on_heavens_door.tex}
+\input{kung_fu_fighting.tex}
+\input{la_bamba.tex}
+\input{last_saskatchewan_pirate.tex}
+\input{leaving_on_a_jet_plane.tex}
+\input{lemon_tree.tex}
+\input{let_it_be.tex}
+\input{like_a_rolling_stone.tex}
+\input{the_lion_sleeps_tonight.tex}
+\input{living_on_a_prayer.tex}
+\input{loch_lomond.tex}
+\input{lola.tex}
+\input{london_calling.tex}
+\input{lucy_in_the_sky_with_diamonds.tex}
+\input{lumberjack_song.tex}
+\input{mary_ellen_carter.tex}
+\input{me_and_bobby_mcgee.tex}
+\input{mr_tambourine_man.tex}
+\input{mrs_robinson.tex}
+\input{my_girl.tex}
+\input{ninety_nine_red_balloons.tex}
+\input{no_woman_no_cry.tex}
+\input{northwest_passage.tex}
+\input{obladi_oblada.tex}
+\input{one_tin_soldier.tex}
+\input{one_two_three_four.tex}
+\input{piano_man.tex}
+\input{pretty_woman.tex}
+\input{proud_mary.tex}
+\input{puff_the_magic_dragon.tex}
+\input{rasputin.tex}
+\input{revolution.tex}
+\input{riptide.tex}
+\input{scarborough_fair.tex}
+\input{sitting_on_the_dock_of_the_bay.tex}
+\input{somewhere_over_the_rainbow.tex}
+\input{sound_of_silence.tex}
+\input{space_oddity.tex}
+\input{stand_by_me.tex}
+\input{sultans_of_swing.tex}
+\input{summer_of_69.tex}
+
+\input{sweet_caroline.tex}
+\input{sweet_home_alabama.tex}
+\input{take_me_home_country_roads.tex}
+\input{tears_in_heaven.tex}
+\input{tiny_dancer.tex}
+\input{total_eclipse_of_the_heart.tex}
+\input{twist_and_shout.tex}
+\input{under_the_bridge.tex}
+\input{viva_la_vida.tex}
+\input{wagon_wheel.tex}
+\input{well_meet_again.tex}
+\input{where_have_all_the_flowers_gone.tex}
+
+\input{wild_world.tex}
+\input{wild_world_spoof.tex}
+\input{wish_you_were_here.tex}
+\input{wonderwall.tex}
+\input{yellow_submarine.tex}
+\input{yesterday.tex}
+\input{yesterday_spoof.tex}
+\input{zombie.tex}
+\end{songs}
+\begin{songs}{emptyidx}
+\renewcommand{\makeprelude}{%
+    \resettitles
+    {\Large \bfseries \songtitle}\par
+    {\songauthors}}
+\input{chordpage.tex}
+\end{songs}
+\end{document}
